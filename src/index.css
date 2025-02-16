@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     font-family: Arial, sans-serif;
     color: #0c0c0c;
@@ -1061,12 +1061,20 @@
   }
   
   .img-details{
-    width: 20vw;
-    height:20vh;
+    width: 30vw;
+    height:25vh;
+    align-items: center;
     margin-left: 10px;
     margin-right: 10px;
   }
   
+  .img-admin{
+    width: 30vw;
+    height:25vh;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   
   /**Profile page styling */
   
