@@ -1365,20 +1365,20 @@
 @media (max-width: 768px) {
   /* General Text Styles */
   body {
-      font-size: 16px; /* Base font size for mobile */
+      font-size: 12px; /* Base font size for mobile */
       line-height: 1.5; /* Adequate line height for readability */
   }
 
   /* Headings */
   h1, h2, h3, h4, h5, h6 {
-      font-size: 1.5em; /* Relative font size for headings */
+      font-size: 0.5em; /* Relative font size for headings */
       line-height: 1.2; /* Tighter line height for headings */
       margin-bottom: 10px; /* Space below headings */
   }
 
   /* Paragraphs and Text Elements */
   p, span, a {
-      font-size: 1em; /* Relative font size */
+      font-size: 0.5em; /* Relative font size */
       line-height: 1.5; /* Adequate line height */
   }
 
@@ -1396,7 +1396,7 @@
   .admin-button {
       width: 100%; /* Full width for buttons */
       padding: 12px; /* Adequate padding */
-      font-size: 1em; /* Consistent font size */
+      font-size: 0.5em; /* Consistent font size */
       line-height: 1.5; /* Proper line height */
   }
 
@@ -1433,7 +1433,7 @@
   button[type="submit"] {
       width: 100%; /* Full width for submit button */
       padding: 12px; /* Adequate padding */
-      font-size: 1em; /* Consistent font size */
+      font-size: 0.5em; /* Consistent font size */
       line-height: 1.5; /* Proper line height */
   }
 
@@ -1447,7 +1447,7 @@
   }
 
   .auth-container h2 {
-      font-size: 1.75em; /* Slightly larger for emphasis */
+      font-size: 0.8em; /* Slightly larger for emphasis */
       line-height: 1.2; /* Tighter line height */
       margin-bottom: 15px; /* Space below heading */
       color: #007F86; /* Specific color for heading */
@@ -1455,7 +1455,7 @@
 
   /* Header Banner */
   .header-banner h1 {
-      font-size: 2em; /* Larger for main heading */
+      font-size: 0.8em; /* Larger for main heading */
       line-height: 1.2; /* Tighter line height */
       text-align: center; /* Center align */
   }
@@ -1470,7 +1470,7 @@
   .home-search-button {
       width: 100%; /* Full width for button */
       padding: 12px; /* Adequate padding */
-      font-size: 1em; /* Consistent font size */
+      font-size: 0.5em; /* Consistent font size */
       line-height: 1.5; /* Proper line height */
   }
 
@@ -1483,7 +1483,7 @@
   .book-now-button {
       width: 100%; /* Full width for button */
       padding: 10px; /* Adequate padding */
-      font-size: 1em; /* Consistent font size */
+      font-size: 0.5em; /* Consistent font size */
       line-height: 1.5; /* Proper line height */
       background-color: #007F86; /* Specific background color */
       color: white; /* Text color */
@@ -1527,7 +1527,7 @@
   .navbar-ul li a {
       display: block; /* Make links block-level */
       padding: 10px; /* Adequate padding */
-      font-size: 1em; /* Consistent font size */
+      font-size: 0.5m; /* Consistent font size */
       line-height: 1.5; /* Proper line height */
   }
 }
