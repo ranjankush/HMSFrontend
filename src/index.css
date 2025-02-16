@@ -1360,117 +1360,140 @@
   
   
   
-/* Responsive Styles for Mobile View (max-width: 480px) */
-
-@media (max-width: 480px) {
-  /* General Styles */
-  body {
-    font-size: 14px; /* Base font size for mobile */
-    line-height: 1.5; /* Adequate line height for readability */
+  @media (max-width: 480px) {
+    /* General Styles */
+    body {
+      font-size: 14px; /* Base font size for mobile */
+      line-height: 1.5; /* Adequate line height for readability */
+      overflow-x: hidden; /* Prevent horizontal overflow */
+    }
+  
+    * {
+      box-sizing: border-box; /* Include padding and border in element dimensions */
+      margin: 0;
+      padding: 0;
+    }
+  
+    img {
+      max-width: 100%; /* Ensure images do not exceed their container width */
+      height: auto; /* Maintain aspect ratio */
+      display: block; /* Remove extra space below images */
+      margin: 0 auto; /* Center images */
+    }
+  
+    /* Headings */
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1.5em; /* Relative font size for headings */
+      line-height: 1.2; /* Tighter line height for headings */
+      margin-bottom: 10px; /* Space below headings */
+      text-align: center; /* Center align headings */
+    }
+  
+    /* Paragraphs and Text Elements */
+    p, span, a {
+      font-size: 1em; /* Relative font size */
+      line-height: 1.5; /* Adequate line height */
+    }
+  
+    /* Navbar */
+    .navbar {
+      padding: 10px; /* Reduced padding for smaller screens */
+      flex-direction: row; /* Keep navbar items in the same line */
+      align-items: center; /* Vertically center items */
+      overflow-x: auto; /* Allow horizontal scrolling if items overflow */
+      white-space: nowrap; /* Prevent text wrapping */
+    }
+  
+    .navbar-ul {
+      display: flex;
+      flex-direction: row; /* Keep navbar items in the same line */
+      gap: 8px; /* Space between navbar items */
+      margin: 0;
+      padding: 0;
+      list-style: none; /* Remove bullet points */
+    }
+  
+    .navbar-ul li {
+      margin-left: 0; /* Remove left margin */
+    }
+  
+    .navbar-ul li a {
+      font-size: 12px; /* Slightly smaller font size for mobile */
+      padding: 5px 10px; /* Adequate padding for touch targets */
+      text-decoration: none; /* Remove underline */
+      color: #333; /* Default text color */
+    }
+  
+    /* Header Banner */
+    .header-banner {
+      position: relative;
+      width: 100%; /* Full width */
+      height: auto; /* Adjust height automatically */
+      overflow: hidden; /* Prevent overflow */
+    }
+  
+    .header-banner h1 {
+      font-size: 1.8em; /* Larger for main heading */
+      line-height: 1.2; /* Tighter line height */
+      text-align: center; /* Center align */
+      margin: 10px 0; /* Add margin for spacing */
+    }
+  
+    .header-banner p {
+      font-size: 1.2em; /* Slightly smaller font size for subheading */
+      text-align: center; /* Center align */
+    }
+  
+    /* Search Field and Button */
+    .search-field {
+      width: 100%; /* Full width for search field */
+      margin-bottom: 10px; /* Space below search field */
+      box-sizing: border-box; /* Include padding in width calculation */
+    }
+  
+    .home-search-button {
+      width: 100%; /* Full width for button */
+      padding: 12px; /* Adequate padding */
+      font-size: 1em; /* Consistent font size */
+      line-height: 1.5; /* Proper line height */
+      background-color: #007F86; /* Specific background color */
+      color: white; /* Text color */
+      border: none; /* Remove border */
+      border-radius: 5px; /* Rounded corners */
+      cursor: pointer; /* Pointer cursor on hover */
+    }
+  
+    /* Room List Items */
+    .room-list-item-image {
+      width: 100%; /* Full width for images */
+      margin-bottom: 10px; /* Space below image */
+    }
+  
+    .book-now-button {
+      width: 100%; /* Full width for button */
+      padding: 10px; /* Adequate padding */
+      font-size: 1em; /* Consistent font size */
+      line-height: 1.5; /* Proper line height */
+      background-color: #007F86; /* Specific background color */
+      color: white; /* Text color */
+      border: none; /* Remove border */
+      font-weight: 500; /* Font weight */
+    }
+  
+    /* Filters and Search Container */
+    .all-room-filter-div {
+      margin: 0; /* Remove margin */
+    }
+  
+    .search-container {
+      display: block; /* Stack search elements vertically */
+    }
+  
+    /* Service Section */
+    .service-section {
+      margin: 10px 0; /* Adjusted margin */
+      display: flex;
+      flex-direction: column; /* Stack services vertically */
+      gap: 10px; /* Space between items */
+    }
   }
-  *{
-    align-items: center;
-    width: 100%;
-    height: auto;
-  }
-  img{
-    width: 100%;
-    height: auto;
-    align-items: center;
-    margin-left:10px;
-  }
-
-  /* Headings */
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 1em; /* Relative font size for headings */
-    line-height: 1.2; /* Tighter line height for headings */
-    margin-bottom: 10px; /* Space below headings */
-  }
-
-  /* Paragraphs and Text Elements */
-  p, span, a {
-    font-size: 1em; /* Relative font size */
-    line-height: 1.5; /* Adequate line height */
-  }
-
-  /* Navbar */
-  .navbar {
-    padding: 10px; /* Reduced padding for smaller screens */
-    flex-direction: row; /* Keep navbar items in the same line */
-    align-items: center; /* Vertically center items */
-  }
-
-  .navbar-ul {
-    display: flex;
-    flex-direction: row; /* Keep navbar items in the same line */
-    gap: 10px; /* Space between navbar items */
-    margin: 0;
-    padding: 0;
-    overflow-x: auto; /* Allow horizontal scrolling if items overflow */
-  }
-
-  .navbar-ul li {
-    margin-left: 0; /* Remove left margin */
-    white-space: nowrap; /* Prevent text from wrapping */
-  }
-
-  .navbar-ul li a {
-    font-size: 12px; /* Slightly smaller font size for mobile */
-    padding: 5px 10px; /* Adequate padding for touch targets */
-  }
-
-  /* Header Banner */
-  .header-banner h1 {
-    font-size: 1em; /* Larger for main heading */
-    line-height: 1.2; /* Tighter line height */
-    text-align: center; /* Center align */
-  }
-
-  /* Search Field and Button */
-  .search-field {
-    width: 100%; /* Full width for search field */
-    margin-bottom: 10px; /* Space below search field */
-    box-sizing: border-box; /* Include padding in width calculation */
-  }
-
-  .home-search-button {
-    width: 100%; /* Full width for button */
-    padding: 12px; /* Adequate padding */
-    font-size: 1em; /* Consistent font size */
-    line-height: 1.5; /* Proper line height */
-  }
-
-  /* Room List Items */
-  .room-list-item-image {
-    width: 100%; /* Full width for images */
-    margin-bottom: 10px; /* Space below image */
-  }
-
-  .book-now-button {
-    width: 100%; /* Full width for button */
-    padding: 10px; /* Adequate padding */
-    font-size: 1em; /* Consistent font size */
-    line-height: 1.5; /* Proper line height */
-    background-color: #007F86; /* Specific background color */
-    color: white; /* Text color */
-    border: none; /* Remove border */
-    font-weight: 500; /* Font weight */
-  }
-
-  /* Filters and Search Container */
-  .all-room-filter-div {
-    margin: 0; /* Remove margin */
-  }
-
-  .search-container {
-    display: block; /* Stack search elements vertically */
-  }
-
-  /* Service Section */
-  .service-section {
-    margin: 10px 0; /* Adjusted margin */
-    display: flex;
-    flex-direction: column; /* Stack services vertically */
-    gap: 10px; /* Space between items */
-  }
-}
