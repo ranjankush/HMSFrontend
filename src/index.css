@@ -1360,113 +1360,174 @@
   
   
   
-  @media (max-width: 768px) {
-    /* Admin Actions */
-    .admin-actions {
-        flex-direction: column;
-        gap: 10px;
-    }
+/* Responsive Styles for Mobile View (max-width: 768px) */
 
-    .admin-button {
-        width: 100%;
-        padding: 12px;
-        font-size: 1em; /* Slightly larger font for better readability */
-    }
+@media (max-width: 768px) {
+  /* General Text Styles */
+  body {
+      font-size: 16px; /* Base font size for mobile */
+      line-height: 1.5; /* Adequate line height for readability */
+  }
 
-    /* Forms */
-    .form-group input {
-        padding: 10px; /* Larger padding for easier touch interaction */
-        font-size: 1em;
-    }
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+      font-size: 1.5em; /* Relative font size for headings */
+      line-height: 1.2; /* Tighter line height for headings */
+      margin-bottom: 10px; /* Space below headings */
+  }
 
-    button[type="submit"] {
-        padding: 12px;
-        font-size: 1em;
-    }
+  /* Paragraphs and Text Elements */
+  p, span, a {
+      font-size: 1em; /* Relative font size */
+      line-height: 1.5; /* Adequate line height */
+  }
 
-    /* Authentication Container */
-    .auth-container {
-        border-radius: 0;
-        border: none;
-        padding: 15px; /* Increased padding for better spacing */
-        width: 100%; /* Full width for small screens */
-    }
+  /* Div Elements */
+  div {
+      box-sizing: border-box; /* Include padding and border in width/height */
+  }
 
-    .auth-container h2 {
-        font-size: 24px; /* Larger font size for headings */
-        color: #007F86;
-        margin-bottom: 15px; /* Added margin for better spacing */
-    }
+  /* Admin Actions */
+  .admin-actions {
+      flex-direction: column; /* Stack buttons vertically */
+      gap: 10px; /* Space between buttons */
+  }
 
-    /* Header Banner */
-    .header-banner h1 {
-        font-size: 24px; /* Larger font size for better visibility */
-        text-align: center; /* Center align for mobile */
-    }
+  .admin-button {
+      width: 100%; /* Full width for buttons */
+      padding: 12px; /* Adequate padding */
+      font-size: 1em; /* Consistent font size */
+      line-height: 1.5; /* Proper line height */
+  }
 
-    /* Search Field and Button */
-    .search-field {
-        flex: 0 0 100%; /* Full width for search field */
-        margin-bottom: 10px; /* Added margin for spacing */
-    }
+  /* Forms */
+  form {
+      width: 100%; /* Full width for forms */
+      box-sizing: border-box; /* Include padding in width calculation */
+  }
 
-    .home-search-button {
-        width: 100%; /* Full width for button */
-        padding: 12px;
-        font-size: 1em;
-    }
+  .form-group {
+      margin-bottom: 15px; /* Space between form groups */
+  }
 
-    /* Room List Items */
-    .room-list-item-image {
-        width: 100%; /* Full width for images */
-        margin-bottom: 10px; /* Added margin for spacing */
-    }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+      width: 100%; /* Full width for inputs */
+      padding: 10px; /* Adequate padding */
+      font-size: 1em; /* Consistent font size */
+      line-height: 1.5; /* Proper line height */
+      box-sizing: border-box; /* Include padding in width calculation */
+  }
 
-    .book-now-button {
-        background-color: #007F86;
-        color: white;
-        border: none;
-        padding: 10px;
-        font-size: 1em;
-        width: 100%; /* Full width for button */
-    }
+  /* Datepicker */
+  .datepicker {
+      width: 100%; /* Full width for datepicker */
+      padding: 10px; /* Adequate padding */
+      font-size: 1em; /* Consistent font size */
+      line-height: 1.5; /* Proper line height */
+      box-sizing: border-box; /* Include padding in width calculation */
+  }
 
-    /* Filters and Search Container */
-    .all-room-filter-div {
-        margin: 0;
-    }
+  /* Buttons */
+  button[type="submit"] {
+      width: 100%; /* Full width for submit button */
+      padding: 12px; /* Adequate padding */
+      font-size: 1em; /* Consistent font size */
+      line-height: 1.5; /* Proper line height */
+  }
 
-    .search-container {
-        display: block;
-    }
+  /* Authentication Container */
+  .auth-container {
+      width: 100%; /* Full width for container */
+      border-radius: 0; /* Remove border radius */
+      border: none; /* Remove border */
+      padding: 15px; /* Increased padding for better spacing */
+      box-sizing: border-box; /* Include padding in width calculation */
+  }
 
-    /* Service Section */
-    .service-section {
-        margin: 10px 0; /* Adjusted margin for better spacing */
-        display: flex;
-        flex-direction: column; /* Stack services vertically */
-        gap: 10px; /* Added gap for spacing */
-    }
+  .auth-container h2 {
+      font-size: 1.75em; /* Slightly larger for emphasis */
+      line-height: 1.2; /* Tighter line height */
+      margin-bottom: 15px; /* Space below heading */
+      color: #007F86; /* Specific color for heading */
+  }
 
-    /* Navbar */
-    .navbar {
-        padding: 10px; /* Increased padding for better touch interaction */
-    }
+  /* Header Banner */
+  .header-banner h1 {
+      font-size: 2em; /* Larger for main heading */
+      line-height: 1.2; /* Tighter line height */
+      text-align: center; /* Center align */
+  }
 
-    .navbar-ul {
-        flex-direction: column; /* Stack navbar items vertically */
-        gap: 10px; /* Added gap for spacing */
-    }
+  /* Search Field and Button */
+  .search-field {
+      width: 100%; /* Full width for search field */
+      margin-bottom: 10px; /* Space below search field */
+      box-sizing: border-box; /* Include padding in width calculation */
+  }
 
-    .navbar-ul li {
-        flex: 1 1 100%; /* Full width for each navbar item */
-        margin: 0;
-        text-align: center;
-    }
+  .home-search-button {
+      width: 100%; /* Full width for button */
+      padding: 12px; /* Adequate padding */
+      font-size: 1em; /* Consistent font size */
+      line-height: 1.5; /* Proper line height */
+  }
 
-    .navbar-ul li a {
-        display: block;
-        padding: 10px; /* Larger padding for easier touch */
-        font-size: 1em;
-    }
+  /* Room List Items */
+  .room-list-item-image {
+      width: 100%; /* Full width for images */
+      margin-bottom: 10px; /* Space below image */
+  }
+
+  .book-now-button {
+      width: 100%; /* Full width for button */
+      padding: 10px; /* Adequate padding */
+      font-size: 1em; /* Consistent font size */
+      line-height: 1.5; /* Proper line height */
+      background-color: #007F86; /* Specific background color */
+      color: white; /* Text color */
+      border: none; /* Remove border */
+      font-weight: 500; /* Font weight */
+  }
+
+  /* Filters and Search Container */
+  .all-room-filter-div {
+      margin: 0; /* Remove margin */
+  }
+
+  .search-container {
+      display: block; /* Stack search elements vertically */
+  }
+
+  /* Service Section */
+  .service-section {
+      margin: 10px 0; /* Adjusted margin */
+      display: flex;
+      flex-direction: column; /* Stack services vertically */
+      gap: 10px; /* Space between items */
+  }
+
+  /* Navbar */
+  .navbar {
+      padding: 10px; /* Increased padding for better touch interaction */
+  }
+
+  .navbar-ul {
+      flex-direction: column; /* Stack navbar items vertically */
+      gap: 10px; /* Space between items */
+  }
+
+  .navbar-ul li {
+      width: 100%; /* Full width for each navbar item */
+      margin: 0; /* Remove margin */
+      text-align: center; /* Center align text */
+  }
+
+  .navbar-ul li a {
+      display: block; /* Make links block-level */
+      padding: 10px; /* Adequate padding */
+      font-size: 1em; /* Consistent font size */
+      line-height: 1.5; /* Proper line height */
+  }
 }
