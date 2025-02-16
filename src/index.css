@@ -1365,6 +1365,7 @@
 @media (max-width: 768px) {
   /* General Text Styles */
   body {
+
       font-size: 0.5em; /* Base font size for mobile */
       line-height: 1.5; /* Adequate line height for readability */
   }
@@ -1511,9 +1512,11 @@
   /* Navbar */
   .navbar {
       padding: 10px; /* Increased padding for better touch interaction */
+
   }
 
   .navbar-ul {
+    display: flex;
       flex-direction: column; /* Stack navbar items vertically */
       gap: 10px; /* Space between items */
   }
