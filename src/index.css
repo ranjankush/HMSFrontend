@@ -1373,6 +1373,11 @@
     width: 100%;
     height: auto;
   }
+  img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
 
   /* Headings */
   h1, h2, h3, h4, h5, h6 {
@@ -1415,7 +1420,7 @@
 
   /* Header Banner */
   .header-banner h1 {
-    font-size: 1em; /* Larger for main heading */
+    font-size: 0.8em; /* Larger for main heading */
     line-height: 1.2; /* Tighter line height */
     text-align: center; /* Center align */
   }
