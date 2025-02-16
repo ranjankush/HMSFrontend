@@ -2,7 +2,7 @@ import axios from "axios"
 
 export default class ApiService {
 
-    static BASE_URL = "https://hotel-management-app-wrr3.onrender.com"
+    static BASE_URL = "process.env.REACT_APP_BASE_URL"
 
     static getHeader() {
         const token = localStorage.getItem("token");
