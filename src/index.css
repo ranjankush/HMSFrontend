@@ -126,10 +126,7 @@
     text-decoration: none;
   }
   
-  .form-group {
-    margin-bottom: 15px;
-    margin-left: 40px;
-  }
+ 
   
   .form-group label {
     display: block;
@@ -456,8 +453,8 @@
     margin: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     height: 20vh;
     margin-top: 30px;
