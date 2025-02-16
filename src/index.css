@@ -193,8 +193,8 @@
   
   /* FOOTER STYKLING */
   .my-footer {
-    color: #f0e8e8;
-    background-color: #444;
+    color: #161515f2;
+    background-color: #b2a8a8b6;
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -1059,7 +1059,12 @@
     background-color: rgb(79, 14, 14);
   }
   
-  
+  .img-details{
+    width: 20vw;
+    height:20vh;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   
   
   /**Profile page styling */
@@ -1203,7 +1208,7 @@
     display: flex;                 /* Enables Flexbox */
     justify-content: center;       /* Centers content horizontally */
     align-items: center;           /* Centers content vertically */
-    background-color: #f1f1f1;     /* Light background color */
+    background-color: #f1f1f100;     /* Light background color */
     padding: 30px;               /* Adds vertical padding */
     width: 100%;                   /* Ensures footer takes full width */
   }
