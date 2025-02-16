@@ -1365,7 +1365,7 @@
 @media (max-width: 768px) {
   /* General Text Styles */
   body {
-      font-size: 12px; /* Base font size for mobile */
+      font-size: 0.5em; /* Base font size for mobile */
       line-height: 1.5; /* Adequate line height for readability */
   }
 
@@ -1415,7 +1415,7 @@
   .form-group textarea {
       width: 100%; /* Full width for inputs */
       padding: 10px; /* Adequate padding */
-      font-size: 1em; /* Consistent font size */
+      font-size: 0.5em; /* Consistent font size */
       line-height: 1.5; /* Proper line height */
       box-sizing: border-box; /* Include padding in width calculation */
   }
@@ -1424,7 +1424,7 @@
   .datepicker {
       width: 100%; /* Full width for datepicker */
       padding: 10px; /* Adequate padding */
-      font-size: 1em; /* Consistent font size */
+      font-size: 0.5em; /* Consistent font size */
       line-height: 1.5; /* Proper line height */
       box-sizing: border-box; /* Include padding in width calculation */
   }
