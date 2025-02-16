@@ -1365,13 +1365,18 @@
 @media (max-width: 480px) {
   /* General Styles */
   body {
-    font-size: 16px; /* Base font size for mobile */
+    font-size: 14px; /* Base font size for mobile */
     line-height: 1.5; /* Adequate line height for readability */
+  }
+  *{
+    align-items: center;
+    width: 50%;
+    height: auto;
   }
 
   /* Headings */
   h1, h2, h3, h4, h5, h6 {
-    font-size: 1.5em; /* Relative font size for headings */
+    font-size: 1em; /* Relative font size for headings */
     line-height: 1.2; /* Tighter line height for headings */
     margin-bottom: 10px; /* Space below headings */
   }
@@ -1410,7 +1415,7 @@
 
   /* Header Banner */
   .header-banner h1 {
-    font-size: 1.8em; /* Larger for main heading */
+    font-size: 1em; /* Larger for main heading */
     line-height: 1.2; /* Tighter line height */
     text-align: center; /* Center align */
   }
