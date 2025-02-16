@@ -1360,177 +1360,106 @@
   
   
   
-/* Responsive Styles for Mobile View (max-width: 768px) */
+/* Responsive Styles for Mobile View (max-width: 480px) */
 
-@media (max-width: 768px) {
-  /* General Text Styles */
+@media (max-width: 480px) {
+  /* General Styles */
   body {
-
-      font-size: 0.5em; /* Base font size for mobile */
-      line-height: 1.5; /* Adequate line height for readability */
+    font-size: 16px; /* Base font size for mobile */
+    line-height: 1.5; /* Adequate line height for readability */
   }
 
   /* Headings */
   h1, h2, h3, h4, h5, h6 {
-      font-size: 0.5em; /* Relative font size for headings */
-      line-height: 1.2; /* Tighter line height for headings */
-      margin-bottom: 10px; /* Space below headings */
+    font-size: 1.5em; /* Relative font size for headings */
+    line-height: 1.2; /* Tighter line height for headings */
+    margin-bottom: 10px; /* Space below headings */
   }
 
   /* Paragraphs and Text Elements */
   p, span, a {
-      font-size: 0.5em; /* Relative font size */
-      line-height: 1.5; /* Adequate line height */
-  }
-
-  /* Div Elements */
-  div {
-      box-sizing: border-box; /* Include padding and border in width/height */
-  }
-
-  /* Admin Actions */
-  .admin-actions {
-      flex-direction: column; /* Stack buttons vertically */
-      gap: 10px; /* Space between buttons */
-  }
-
-  .admin-button {
-      width: 100%; /* Full width for buttons */
-      padding: 12px; /* Adequate padding */
-      font-size: 0.5em; /* Consistent font size */
-      line-height: 1.5; /* Proper line height */
-  }
-
-  /* Forms */
-  form {
-      width: 100%; /* Full width for forms */
-      box-sizing: border-box; /* Include padding in width calculation */
-  }
-
-  .form-group {
-      margin-bottom: 15px; /* Space between form groups */
-  }
-
-  .form-group input,
-  .form-group select,
-  .form-group textarea {
-      width: 100%; /* Full width for inputs */
-      padding: 10px; /* Adequate padding */
-      font-size: 0.5em; /* Consistent font size */
-      line-height: 1.5; /* Proper line height */
-      box-sizing: border-box; /* Include padding in width calculation */
-  }
-
-  /* Datepicker */
-  .datepicker {
-      width: 100%; /* Full width for datepicker */
-      padding: 10px; /* Adequate padding */
-      font-size: 0.5em; /* Consistent font size */
-      line-height: 1.5; /* Proper line height */
-      box-sizing: border-box; /* Include padding in width calculation */
-  }
-
-  /* Buttons */
-  button[type="submit"] {
-      width: 100%; /* Full width for submit button */
-      padding: 12px; /* Adequate padding */
-      font-size: 0.5em; /* Consistent font size */
-      line-height: 1.5; /* Proper line height */
-  }
-
-  /* Authentication Container */
-  .auth-container {
-      width: 100%; /* Full width for container */
-      border-radius: 0; /* Remove border radius */
-      border: none; /* Remove border */
-      padding: 15px; /* Increased padding for better spacing */
-      box-sizing: border-box; /* Include padding in width calculation */
-  }
-
-  .auth-container h2 {
-      font-size: 0.8em; /* Slightly larger for emphasis */
-      line-height: 1.2; /* Tighter line height */
-      margin-bottom: 15px; /* Space below heading */
-      color: #007F86; /* Specific color for heading */
-  }
-
-  /* Header Banner */
-  .header-banner h1 {
-      font-size: 0.8em; /* Larger for main heading */
-      line-height: 1.2; /* Tighter line height */
-      text-align: center; /* Center align */
-  }
-
-  /* Search Field and Button */
-  .search-field {
-      width: 100%; /* Full width for search field */
-      margin-bottom: 10px; /* Space below search field */
-      box-sizing: border-box; /* Include padding in width calculation */
-  }
-
-  .home-search-button {
-      width: 100%; /* Full width for button */
-      padding: 12px; /* Adequate padding */
-      font-size: 0.5em; /* Consistent font size */
-      line-height: 1.5; /* Proper line height */
-  }
-
-  /* Room List Items */
-  .room-list-item-image {
-      width: 100%; /* Full width for images */
-      margin-bottom: 10px; /* Space below image */
-  }
-
-  .book-now-button {
-      width: 100%; /* Full width for button */
-      padding: 10px; /* Adequate padding */
-      font-size: 0.5em; /* Consistent font size */
-      line-height: 1.5; /* Proper line height */
-      background-color: #007F86; /* Specific background color */
-      color: white; /* Text color */
-      border: none; /* Remove border */
-      font-weight: 500; /* Font weight */
-  }
-
-  /* Filters and Search Container */
-  .all-room-filter-div {
-      margin: 0; /* Remove margin */
-  }
-
-  .search-container {
-      display: block; /* Stack search elements vertically */
-  }
-
-  /* Service Section */
-  .service-section {
-      margin: 10px 0; /* Adjusted margin */
-      display: flex;
-      flex-direction: column; /* Stack services vertically */
-      gap: 10px; /* Space between items */
+    font-size: 1em; /* Relative font size */
+    line-height: 1.5; /* Adequate line height */
   }
 
   /* Navbar */
   .navbar {
-      padding: 10px; /* Increased padding for better touch interaction */
-
+    padding: 10px; /* Reduced padding for smaller screens */
+    flex-direction: row; /* Keep navbar items in the same line */
+    align-items: center; /* Vertically center items */
   }
 
   .navbar-ul {
     display: flex;
-      flex-direction: column; /* Stack navbar items vertically */
-      gap: 10px; /* Space between items */
+    flex-direction: row; /* Keep navbar items in the same line */
+    gap: 10px; /* Space between navbar items */
+    margin: 0;
+    padding: 0;
+    overflow-x: auto; /* Allow horizontal scrolling if items overflow */
   }
 
   .navbar-ul li {
-      width: 100%; /* Full width for each navbar item */
-      margin: 0; /* Remove margin */
-      text-align: center; /* Center align text */
+    margin-left: 0; /* Remove left margin */
+    white-space: nowrap; /* Prevent text from wrapping */
   }
 
   .navbar-ul li a {
-      display: block; /* Make links block-level */
-      padding: 10px; /* Adequate padding */
-      font-size: 0.5m; /* Consistent font size */
-      line-height: 1.5; /* Proper line height */
+    font-size: 14px; /* Slightly smaller font size for mobile */
+    padding: 5px 10px; /* Adequate padding for touch targets */
+  }
+
+  /* Header Banner */
+  .header-banner h1 {
+    font-size: 1.8em; /* Larger for main heading */
+    line-height: 1.2; /* Tighter line height */
+    text-align: center; /* Center align */
+  }
+
+  /* Search Field and Button */
+  .search-field {
+    width: 100%; /* Full width for search field */
+    margin-bottom: 10px; /* Space below search field */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+
+  .home-search-button {
+    width: 100%; /* Full width for button */
+    padding: 12px; /* Adequate padding */
+    font-size: 1em; /* Consistent font size */
+    line-height: 1.5; /* Proper line height */
+  }
+
+  /* Room List Items */
+  .room-list-item-image {
+    width: 100%; /* Full width for images */
+    margin-bottom: 10px; /* Space below image */
+  }
+
+  .book-now-button {
+    width: 100%; /* Full width for button */
+    padding: 10px; /* Adequate padding */
+    font-size: 1em; /* Consistent font size */
+    line-height: 1.5; /* Proper line height */
+    background-color: #007F86; /* Specific background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    font-weight: 500; /* Font weight */
+  }
+
+  /* Filters and Search Container */
+  .all-room-filter-div {
+    margin: 0; /* Remove margin */
+  }
+
+  .search-container {
+    display: block; /* Stack search elements vertically */
+  }
+
+  /* Service Section */
+  .service-section {
+    margin: 10px 0; /* Adjusted margin */
+    display: flex;
+    flex-direction: column; /* Stack services vertically */
+    gap: 10px; /* Space between items */
   }
 }
