@@ -1360,106 +1360,113 @@
   
   
   
-  
-  /* Responsive styles */
-  @media (max-width:1220px) {
-  
+  @media (max-width: 768px) {
+    /* Admin Actions */
     .admin-actions {
         flex-direction: column;
         gap: 10px;
     }
-  
+
     .admin-button {
         width: 100%;
         padding: 12px;
-        font-size: 0.9em;
+        font-size: 1em; /* Slightly larger font for better readability */
     }
-  
+
+    /* Forms */
     .form-group input {
-        padding: 6px;
+        padding: 10px; /* Larger padding for easier touch interaction */
+        font-size: 1em;
     }
-  
+
+    button[type="submit"] {
+        padding: 12px;
+        font-size: 1em;
+    }
+
+    /* Authentication Container */
     .auth-container {
         border-radius: 0;
         border: none;
-        padding: 10px;
-      
+        padding: 15px; /* Increased padding for better spacing */
+        width: 100%; /* Full width for small screens */
     }
-  
+
     .auth-container h2 {
-        font-size: 20px;
+        font-size: 24px; /* Larger font size for headings */
         color: #007F86;
+        margin-bottom: 15px; /* Added margin for better spacing */
     }
-  
-    .form-group input {
-        padding: 8px;
-    }
-  
-    button[type="submit"] {
-        padding: 11px;
-    }
-  
+
+    /* Header Banner */
     .header-banner h1 {
-        font-size: 20px;
+        font-size: 24px; /* Larger font size for better visibility */
+        text-align: center; /* Center align for mobile */
     }
-  
-  
+
+    /* Search Field and Button */
     .search-field {
-        flex: 0 0 calc(100% - 20px);
+        flex: 0 0 100%; /* Full width for search field */
+        margin-bottom: 10px; /* Added margin for spacing */
     }
-  
+
     .home-search-button {
-        width:80%;
+        width: 100%; /* Full width for button */
+        padding: 12px;
+        font-size: 1em;
     }
-  
+
+    /* Room List Items */
     .room-list-item-image {
-        width: 30%;
+        width: 100%; /* Full width for images */
+        margin-bottom: 10px; /* Added margin for spacing */
     }
-  
+
     .book-now-button {
         background-color: #007F86;
         color: white;
         border: none;
-        padding: 5px;
-        font-weight: 500;
+        padding: 10px;
+        font-size: 1em;
+        width: 100%; /* Full width for button */
     }
-  
+
+    /* Filters and Search Container */
     .all-room-filter-div {
-        margin: 0px;
+        margin: 0;
     }
-  
+
     .search-container {
         display: block;
-       
-  
     }
-  
+
+    /* Service Section */
     .service-section {
-        margin: 5px;
+        margin: 10px 0; /* Adjusted margin for better spacing */
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column; /* Stack services vertically */
+        gap: 10px; /* Added gap for spacing */
     }
-  
-    /*Navbar*/
-  
+
+    /* Navbar */
     .navbar {
-        padding: 5px 10px 5px 10px;
+        padding: 10px; /* Increased padding for better touch interaction */
     }
-  
+
     .navbar-ul {
-        justify-content: space-between;
+        flex-direction: column; /* Stack navbar items vertically */
+        gap: 10px; /* Added gap for spacing */
     }
-  
+
     .navbar-ul li {
-        flex: 1 1 22%;
-        /* Adjust to fit 4 items per row */
-        margin-left: 0;
-        margin-bottom: 10px;
+        flex: 1 1 100%; /* Full width for each navbar item */
+        margin: 0;
         text-align: center;
     }
-  
+
     .navbar-ul li a {
         display: block;
+        padding: 10px; /* Larger padding for easier touch */
+        font-size: 1em;
     }
-  
-  }
+}
