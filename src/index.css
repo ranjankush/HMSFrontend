@@ -1362,7 +1362,7 @@
   
   
   /* Responsive styles */
-  @media (max-width: 720px) {
+  @media (max-width:1220px) {
   
     .admin-actions {
         flex-direction: column;
