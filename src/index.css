@@ -1377,6 +1377,7 @@
     width: 100%;
     height: auto;
     align-items: center;
+    margin-left:10px;
   }
 
   /* Headings */
@@ -1414,13 +1415,13 @@
   }
 
   .navbar-ul li a {
-    font-size: 14px; /* Slightly smaller font size for mobile */
+    font-size: 12px; /* Slightly smaller font size for mobile */
     padding: 5px 10px; /* Adequate padding for touch targets */
   }
 
   /* Header Banner */
   .header-banner h1 {
-    font-size: 0.8em; /* Larger for main heading */
+    font-size: 1em; /* Larger for main heading */
     line-height: 1.2; /* Tighter line height */
     text-align: center; /* Center align */
   }
