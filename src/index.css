@@ -1420,6 +1420,7 @@
   
     .navbar-ul li {
       margin-left: 0; /* Remove left margin */
+      font-size: 12px;
     }
   
     .navbar-ul li a {
@@ -1445,7 +1446,7 @@
     }
     .header-banner h1 {
       font-size: 1em; /* Larger for main heading */
-      line-height: 1.2; /* Tighter line height */
+      line-height: 1; /* Tighter line height */
       text-align: center; /* Center align */
       margin: 10px 0; /* Add margin for spacing */
     }
@@ -1466,7 +1467,7 @@
       width: 100%; /* Full width for button */
       padding: 12px; /* Adequate padding */
       font-size: 1em; /* Consistent font size */
-      line-height: 1.5; /* Proper line height */
+      line-height: 1; /* Proper line height */
       background-color: #007F86; /* Specific background color */
       color: white; /* Text color */
       border: none; /* Remove border */
@@ -1484,7 +1485,7 @@
       width: 100%; /* Full width for button */
       padding: 10px; /* Adequate padding */
       font-size: 1em; /* Consistent font size */
-      line-height: 1.5; /* Proper line height */
+      line-height: 1; /* Proper line height */
       background-color: #007F86; /* Specific background color */
       color: white; /* Text color */
       border: none; /* Remove border */
