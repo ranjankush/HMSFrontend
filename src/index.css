@@ -1363,7 +1363,7 @@
   @media (max-width: 480px) {
     /* General Styles */
     body {
-      font-size: 14px; /* Base font size for mobile */
+      font-size: 12px; /* Base font size for mobile */
       line-height: 1.5; /* Adequate line height for readability */
       overflow-x: hidden; /* Prevent horizontal overflow */
     }
@@ -1373,9 +1373,14 @@
       margin: 0;
       padding: 0;
     }
+    .navbar-brand a {
+      color: #c31f09;
+      font-size: 12px;
+      text-decoration: none;
+  }
   
     img {
-      max-width: 100%; /* Ensure images do not exceed their container width */
+      max-width: 80%; /* Ensure images do not exceed their container width */
       height: auto; /* Maintain aspect ratio */
       display: block; /* Remove extra space below images */
       margin: 0 auto; /* Center images */
@@ -1383,8 +1388,8 @@
   
     /* Headings */
     h1, h2, h3, h4, h5, h6 {
-      font-size: 1.5em; /* Relative font size for headings */
-      line-height: 1.2; /* Tighter line height for headings */
+      font-size: 1em; /* Relative font size for headings */
+      line-height: 1; /* Tighter line height for headings */
       margin-bottom: 10px; /* Space below headings */
       text-align: center; /* Center align headings */
     }
@@ -1392,7 +1397,7 @@
     /* Paragraphs and Text Elements */
     p, span, a {
       font-size: 1em; /* Relative font size */
-      line-height: 1.5; /* Adequate line height */
+      line-height: 1; /* Adequate line height */
     }
   
     /* Navbar */
@@ -1407,7 +1412,7 @@
     .navbar-ul {
       display: flex;
       flex-direction: row; /* Keep navbar items in the same line */
-      gap: 8px; /* Space between navbar items */
+      gap: 2px; /* Space between navbar items */
       margin: 0;
       padding: 0;
       list-style: none; /* Remove bullet points */
@@ -1431,16 +1436,22 @@
       height: auto; /* Adjust height automatically */
       overflow: hidden; /* Prevent overflow */
     }
-  
+  input{
+    size: 12px;
+    font-size: 12px;
+  }
+    .content{
+
+    }
     .header-banner h1 {
-      font-size: 1.8em; /* Larger for main heading */
+      font-size: 1em; /* Larger for main heading */
       line-height: 1.2; /* Tighter line height */
       text-align: center; /* Center align */
       margin: 10px 0; /* Add margin for spacing */
     }
   
     .header-banner p {
-      font-size: 1.2em; /* Slightly smaller font size for subheading */
+      font-size: 0.8em; /* Slightly smaller font size for subheading */
       text-align: center; /* Center align */
     }
   
