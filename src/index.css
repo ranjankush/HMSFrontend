@@ -1597,10 +1597,10 @@ footer span {
     background: #f9f9f9;
   }
   .book-now-div .book-now-button{
-    width: 40%;
-    padding: 10px;
+    width: 60%;
+    padding: 10px 5px 10px 5px;
     font-size:12px;
-    margin-right:100px;
+    margin-left:50px;
     line-height: 1;
     background-color: #007F86;
     color: white;
