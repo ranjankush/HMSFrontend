@@ -550,11 +550,11 @@ background-position: center;
   margin-right: auto;
 
 }
-.all-room-filter-div .filter-select-div label{
+.all-room .filter-select-div label{
   font-weight: 800;
   font-size: 30px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 20px;
 }
 
 
@@ -567,7 +567,7 @@ background-position: center;
   margin: 10px;
   font-weight: 600;
 }
-
+.all-rooms .filter-select-div
 
 
 
