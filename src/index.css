@@ -552,12 +552,12 @@ background-position: center;
   margin-right: auto;
 
 }
-.all-room .filter-select-div label{
+/* .all-room .filter-select-div label{
   font-weight: 800;
   font-size: 30px;
   margin-left: auto;
   margin-right:50px;
-}
+} */
 
 
 .all-room-filter-div select {
