@@ -83,7 +83,7 @@ function RegisterPage() {
                     <label>Password:</label>
                     <input type="password" name="password" value={formData.password} onChange={handleInputChange} required />
                 </div>
-                <button type="submit">Register</button>
+                <button className='button' type="submit">Register</button>
             </form>
             <p className="register-link">
                 Already have an account? <a href="/login">Login</a>

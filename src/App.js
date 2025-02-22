@@ -1,6 +1,5 @@
+// Tailwind CSS Integrated with React Router
 
-
-// src/App.js
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './component/common/Navbar';
@@ -20,6 +19,7 @@ import EditBookingPage from './component/admin/EditBookingPage';
 import ProfilePage from './component/profile/ProfilePage';
 import EditProfilePage from './component/profile/EditProfilePage';
 import { ProtectedRoute, AdminRoute } from './service/guard';
+import './index.css'; // Ensure Tailwind is imported
 
 function App() {
   return (
