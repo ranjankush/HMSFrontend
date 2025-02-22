@@ -539,9 +539,11 @@ background-position: center;
 
 .add-room-button {
   float: right;
-  margin-right:7%;
+  margin-top: 30px;
   font-weight: 600;
+  margin-right: 45%;
 }
+
 
 .all-room-filter-div label {
   font-weight: 800;
@@ -554,7 +556,7 @@ background-position: center;
   font-weight: 800;
   font-size: 30px;
   margin-left: auto;
-  margin-right: 20px;
+  margin-right:50px;
 }
 
 
