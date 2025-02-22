@@ -1248,7 +1248,7 @@ footer span {
 
 /* Ensure that month and year text are styled */
 .react-datepicker__current-month {
-  font-size: 25px !important;  
+  font-size: 25px;  
   font-weight: bold;           
   color: #333;                 
 }
@@ -1733,6 +1733,7 @@ height:1px ;
   .booking-info .react-datepicker__input-container input{
     margin-left: 20px;
     margin-right: auto;
+    font-size: 14px;
   }
   .booking-info .guest-div input{
     display: block;
@@ -1757,4 +1758,38 @@ height:1px ;
     margin-left: auto;
     cursor: pointer;
   }
+  .react-datepicker .react-datepicker__navigation--previous {
+    border-color: transparent transparent transparent #021122;  /* Arrow color */
+    font-size: 10px;  
+    padding: 15px;    
+    margin-left: 2px;
+    width: 24px;     
+    height: 24px;     
+  
+  }
+  .react-datepicker__month-container .react-datepicker__header {
+    font-size: 14px;
+  }
+  .react-datepicker__month-container .react-datepicker__current-month{
+    font-size: 12px;
+  }
+  .react-datepicker__current-month .react-datepicker_week div {
+    font-size: 12px;
+  }
+  .room-details-booking .react-datepicker-popper{
+    font-size: 12px;
+  }
+  .react-datepicker__month {
+    margin-right: 0.rem;
+    text-align: center;
+}
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  color: #000;
+  display: inline-block;
+  width: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 0.166rem;
+  font-size: 12px;
+}
 }
