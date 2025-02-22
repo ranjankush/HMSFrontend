@@ -1522,8 +1522,9 @@ footer span {
     height: 20vh;
   }
   .find-booking-page .booking-details .acheive-booking{
-    width: 40vw;
-    margin-left: 50px;
+    /* width: 40vw;
+    padding: 10px 5px; */
+    margin-left: 22px;
     margin-right: auto;
   }
   
@@ -1728,5 +1729,32 @@ height:1px ;
     margin-left: 20px;
     margin-right: auto;
 
+  }
+  .booking-info .react-datepicker__input-container input{
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  .booking-info .guest-div input{
+    display: block;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-left:auto;
+    margin-right: 100%;
+    width: 80px;
+  }
+  .booking-info .date-picker-container .confirm-booking {
+    font-size: px;
+    padding: 10px 5px;
+    font-size: 20px;
+    background-color: #007F86;
+    color: #fff;
+    border: none;
+    width: 50%;
+    border-radius: 4px;
+    margin-right: 85px;
+    margin-left: auto;
+    cursor: pointer;
   }
 }
