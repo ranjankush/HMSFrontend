@@ -1637,6 +1637,11 @@ footer span {
   margin-left:10px;
   margin-right: auto;
 }
+.edit-room-container .form-group select{
+  margin-left: 10px;
+  margin-right: auto;
+  font-size: 14px;
+}
 .add-room-button {
   float: right;
   margin-right: 28%;
