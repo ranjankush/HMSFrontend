@@ -345,7 +345,7 @@ background-position: center;
 .home-search-button{
   margin-left: 15px;
   padding: 20px 20px;
-  background-color: #007F86;
+  background-color: #0fbcc6;
   font-weight: 600;
   color: #fff;
   border: none;
@@ -364,9 +364,8 @@ background-position: center;
 
 /* ROOM SEARCH Component RESULT HOME PAGE STYLING */
 .room-results {
-  display: block;
   flex-wrap: wrap;
-  margin: 10px 30px;
+  color:rgb(10, 162, 232)
 }
 
 .room-list-item {
@@ -1687,7 +1686,7 @@ height:1px ;
     padding: 12px; 
     font-size: 1em; 
     line-height: 1; 
-    background-color: #007F86; 
+    background-color: #0fbcc6; 
     color: white;
     border: none; 
     border-radius: 5px; 
