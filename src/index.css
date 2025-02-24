@@ -370,7 +370,7 @@ background-position: center;
 
 .room-list-item {
   width: calc(95% - 20px);
-  height: 20vh;
+  height: 25vh;
   margin: 20px auto;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -383,7 +383,8 @@ background-position: center;
 .room-list-item-image {
   width: 20%;
   /* Adjust image width */
-  height: 20vh;
+  height: 24vh;
+  border-radius: 8px;
 }
 
 .room-details {
@@ -1600,7 +1601,7 @@ footer span {
     width: 60%;
     padding: 10px 5px 10px 5px;
     font-size:12px;
-    margin-left:50px;
+    margin-left:45px;
     line-height: 1;
     background-color: #007F86;
     color: white;
