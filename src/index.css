@@ -1412,8 +1412,10 @@ footer span {
   bottom: 0;
   left: 0;
   width:100%;
-  margin-top: 10px;
+  margin-top: 30px;
   background-color: rgb(195, 192, 192);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Footer Text */
@@ -1906,6 +1908,10 @@ height:1px ;
   margin-right: auto;
   margin-left: auto;
   font-weight: 600;
+}
+.footer-section{
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .footer-section p {
