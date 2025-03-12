@@ -73,9 +73,10 @@ const HomePage = () => {
             <section className="footer-section">
                 <div className="content">
                     <p>
-                        Hotel Taj is the right choice for visitors who are searching for a combination of charm and a joyful nature view to explore the surroundings.
+                       <h4>Hotel Taj is the right choice for visitors who are searching for a combination of charm and a joyful nature view to explore the surroundings.
                         Our rooms are appointed to make your stay more comfortable!!.
-                    </p>
+                    </h4> 
+                       </p>
                 </div>
 
                 <div className="footer-details">
@@ -111,14 +112,19 @@ const HomePage = () => {
                 </div>
 
 
-                <div className="social">
-                    <p>Social Media</p>
-                </div>
-                <div className="footer-social">
 
-                    <img className="social-icon" src="./assets/images/facebook.png" alt="Facebook" />
-                    <img className="social-icon" src="./assets/images/instagram.png" alt="Facebook" />
-                    <img className="social-icon" src="./assets/images/twitter.png" alt="Facebook" />
+                <div className="social">
+                    <div className="cont">
+                    <p> <h4>Social Media</h4></p>
+                    </div>
+                    
+
+                    <div >
+
+                        <img className="social-icon" src="./assets/images/facebook.png" alt="Facebook" />
+                        <img className="social-icon" src="./assets/images/instagram.png" alt="Facebook" />
+                        <img className="social-icon" src="./assets/images/twitter.png" alt="Facebook" />
+                    </div>
                 </div>
             </section>
 
