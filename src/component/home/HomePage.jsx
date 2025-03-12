@@ -16,7 +16,7 @@ const HomePage = () => {
 
     return (
         <div className="home">
-            {/* HEADER / BANNER ROOM SECTION */}
+            {/* HEADER / BANNER ROOM SECTION */ }
             <section>
                 <header className="header-banner">
                     <img src="./assets/images/hotel.webp" alt="Taj Hotel" className="header-image" />
@@ -30,15 +30,15 @@ const HomePage = () => {
                 </header>
             </section>
 
-            {/* SEARCH/FIND AVAILABLE ROOM SECTION */}
-            <RoomSearch handleSearchResult={handleSearchResult} />
-            <RoomResult roomSearchResults={roomSearchResults} />
+            {/* SEARCH/FIND AVAILABLE ROOM SECTION */ }
+            <RoomSearch handleSearchResult={ handleSearchResult } />
+            <RoomResult roomSearchResults={ roomSearchResults } />
 
             <h4><a className="view-rooms-home" href="/rooms">All Rooms</a></h4>
 
             <h2 className="home-services">Services at <span className="hotel-color">Taj Hotel</span></h2>
 
-            {/* SERVICES SECTION */}
+            {/* SERVICES SECTION */ }
             <section className="service-section"><div className="service-card">
                 <img src="./assets/images/reception-hotel.jpg" alt="Air Conditioning" />
                 <div className="service-details">
@@ -69,10 +69,59 @@ const HomePage = () => {
                 </div>
 
             </section>
-            {/* AVAILABLE ROOMS SECTION */}
-            <section>
+            {/* AVAILABLE ROOMS SECTION */ }
+            <section className="footer-section">
+                <div className="content">
+                    <p>
+                        Hotel Taj is the right choice for visitors who are searching for a combination of charm and a joyful nature view to explore the surroundings.
+                        Our rooms are appointed to make your stay more comfortable!!.
+                    </p>
+                </div>
 
+                <div className="footer-details">
+                    <div className="footer-item">
+                        <p>
+                            <img className="icon" src="./assets/images/location.png" alt="Location" />
+                            <a className="footer-link" href="/">
+                                Apollo Bandar, Colaba, Mumbai, Maharashtra 400001
+                            </a>
+                        </p>
+
+                    </div>
+
+                    <div className="footer-item">
+                        <p>
+                            <img className="icon" src="./assets/images/gmail.png" alt="Mail" />
+                            <a className="footer-link" href="/">
+                                care.tajhotels@gmail.com
+                            </a>
+                        </p>
+
+                    </div>
+
+                    <div className="footer-item">
+                        <p>
+                            <img className="icon" src="./assets/images/viber.png" alt="Phone" />
+                            <a className="footer-link" href="/">
+                                +91 (22) 6601 1825
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div className="social">
+                    <p>Social Media</p>
+                </div>
+                <div className="footer-social">
+
+                    <img className="social-icon" src="./assets/images/facebook.png" alt="Facebook" />
+                    <img className="social-icon" src="./assets/images/instagram.png" alt="Facebook" />
+                    <img className="social-icon" src="./assets/images/twitter.png" alt="Facebook" />
+                </div>
             </section>
+
         </div>
     );
 }
